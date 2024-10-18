@@ -66,4 +66,9 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.converter.gson)
     implementation(libs.logging.interceptor)
+
+    //coroutine support
+    implementation(libs.androidx.lifecycle.viewmodel.ktx) //viewModelScope
+    implementation(libs.androidx.lifecycle.livedata.ktx) //liveData
+    implementation(libs.androidx.room.ktx)
 }
